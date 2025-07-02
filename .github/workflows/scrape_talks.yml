@@ -28,9 +28,12 @@ jobs:
         jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
 
     - name: Commit changes
+      env:
+        GH_TOKEN: ${{ secrets.WebSite_TOKEN }}   # 네가 등록한 secret 이름 넣기
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add .
         git commit -m "Automated update of talk locations" || echo "No changes to commit"
-        git push
+        git push https://x-access-token:${GH_TOKEN}@github.com/clevonkk/clevon-s-world.git
+
