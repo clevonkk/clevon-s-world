@@ -9,12 +9,12 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Gwanyoung Ko"
+title                    : "Gwanyoung Ko, Undergraduate"
 title_separator          : "-"
 name                     : &name "Gwanyoung Ko"
 description              : &description "Undergraduate in Electrical & Computer Engineering, Physics & Astronomy (Double Major), Seoul National University"
 url                      : https://clevonkk.github.io
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
 repository               : "clevonkk/clevonkk.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -25,8 +25,8 @@ author:
   avatar           : "profile.jpg"
   name             : "Gwanyoung Ko"
   pronouns         : "he/him"  
-  bio              : "Undergraduate in Electrical & Computer Engineering, Physics & Astronomy (Double Major), Seoul National University"
-  location         : "Seoul, Republic of Korea"
+  bio              : "Undergraduate🙋‍♂️ in Electrical & Computer Engineering⚡️, Physics & Astronomy🐈 (Double Major), Seoul National University"
+  location         : "Seoul 08826, Republic of Korea"
   employer         : "Seoul National University"
   uri              : # URL
   email            : "david.gyko25@gmail.com" 
