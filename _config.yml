@@ -9,12 +9,12 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Gwanyoung Ko Workspace"
+title                    : "Gwanyoung Ko"
 title_separator          : "-"
 name                     : &name "Gwanyoung Ko"
-description              : &description "personal description"
-url                      : https://clevonkk.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+description              : &description "Undergraduate in Electrical & Computer Engineering, Physics & Astronomy (Double Major), Seoul National University"
+url                      : https://clevonkk.github.io
+baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
 repository               : "clevonkk/clevonkk.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -26,7 +26,7 @@ author:
   name             : "Gwanyoung Ko"
   pronouns         : "he/him"  
   bio              : "Undergraduate in Electrical & Computer Engineering, Physics & Astronomy (Double Major), Seoul National University"
-  location         : "Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul 08826, Republic of Korea"
+  location         : "Seoul 08826, Republic of Korea"
   employer         : "Seoul National University"
   uri              : # URL
   email            : "david.gyko25@gmail.com" 
@@ -61,7 +61,7 @@ author:
   keybase          : # Username
   instagram        : "clevon_k_k"
   lastfm           : # Username
-  linkedin         : "Gwanyoung Ko"
+  linkedin         : "www.linkedin.com/in/gwanyoung-ko"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
