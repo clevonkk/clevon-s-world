@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : &name "Gwanyoung Ko"
 description              : &description "Undergraduate in Electrical & Computer Engineering, Physics & Astronomy (Double Major), Seoul National University"
 url                      : https://clevonkk.github.io
-baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "clevonkk/clevonkk.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
